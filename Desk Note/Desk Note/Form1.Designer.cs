@@ -1,4 +1,4 @@
-﻿namespace Desk_Note
+namespace Desk_Note
 {
     partial class Form1
     {
@@ -34,7 +34,6 @@
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.bttCreate = new System.Windows.Forms.Button();
             this.bttRead = new System.Windows.Forms.Button();
-            this.bttUpdate = new System.Windows.Forms.Button();
             this.bttDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bttSave = new System.Windows.Forms.Button();
@@ -90,23 +89,13 @@
             // 
             // bttRead
             // 
-            this.bttRead.Location = new System.Drawing.Point(275, 374);
+            this.bttRead.Location = new System.Drawing.Point(269, 373);
             this.bttRead.Name = "bttRead";
             this.bttRead.Size = new System.Drawing.Size(99, 35);
             this.bttRead.TabIndex = 5;
             this.bttRead.Text = "Read";
             this.bttRead.UseVisualStyleBackColor = true;
             this.bttRead.Click += new System.EventHandler(this.bttRead_Click);
-            // 
-            // bttUpdate
-            // 
-            this.bttUpdate.Location = new System.Drawing.Point(436, 375);
-            this.bttUpdate.Name = "bttUpdate";
-            this.bttUpdate.Size = new System.Drawing.Size(99, 34);
-            this.bttUpdate.TabIndex = 6;
-            this.bttUpdate.Text = "Update";
-            this.bttUpdate.UseVisualStyleBackColor = true;
-            this.bttUpdate.Click += new System.EventHandler(this.bttUpdate_Click);
             // 
             // bttDelete
             // 
@@ -120,15 +109,21 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(437, 62);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(245, 273);
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.Size = new System.Drawing.Size(198, 273);
             this.dataGridView1.TabIndex = 8;
             // 
             // bttSave
             // 
-            this.bttSave.Location = new System.Drawing.Point(342, 428);
+            this.bttSave.Location = new System.Drawing.Point(426, 373);
             this.bttSave.Name = "bttSave";
             this.bttSave.Size = new System.Drawing.Size(113, 36);
             this.bttSave.TabIndex = 9;
@@ -140,11 +135,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 467);
+            this.ClientSize = new System.Drawing.Size(697, 467);
             this.Controls.Add(this.bttSave);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bttDelete);
-            this.Controls.Add(this.bttUpdate);
             this.Controls.Add(this.bttRead);
             this.Controls.Add(this.bttCreate);
             this.Controls.Add(this.txtMessage);
@@ -168,7 +162,6 @@
         private System.Windows.Forms.TextBox txtMessage;
         private System.Windows.Forms.Button bttCreate;
         private System.Windows.Forms.Button bttRead;
-        private System.Windows.Forms.Button bttUpdate;
         private System.Windows.Forms.Button bttDelete;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button bttSave;
