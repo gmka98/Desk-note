@@ -1,0 +1,11 @@
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\bin\Debug\Desk Note.exe.config
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\bin\Debug\Desk Note.exe
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\bin\Debug\Desk Note.pdb
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.csproj.AssemblyReference.cache
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.csproj.SuggestedBindingRedirects.cache
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk_Note.Form1.resources
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk_Note.Properties.Resources.resources
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.csproj.GenerateResource.cache
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.csproj.CoreCompileInputs.cache
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.exe
+C:\Users\tyfam\source\repos\Desk Note\Desk Note\obj\Debug\Desk Note.pdb
