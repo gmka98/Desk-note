@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +29,9 @@ namespace Desk_Note
             table.Columns.Add("Message", typeof(string));
 
             dataGridView1.DataSource = table;
+
+            dataGridView1.Columns["Message"].Visible = false;
+            dataGridView1.Columns["Title"].Width = 160;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -60,28 +63,7 @@ namespace Desk_Note
             }
         }
 
-        private void bttUpdate_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-
-                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-
-                // select the first element of the row
-                int rowIndex = selectedRow.Index;
-
-                string newTitle = txtTitle.Text;
-                string newMessage = txtMessage.Text;
-
-                table.Rows[rowIndex]["Title"] = newTitle;
-                table.Rows[rowIndex]["Message"] = newMessage;
-
-                txtTitle.Clear();
-                txtMessage.Clear();
-
-            }
-
-        }
+        
 
         private void bttDelete_Click(object sender, EventArgs e)
         {
